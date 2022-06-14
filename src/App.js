@@ -1,6 +1,13 @@
+import { Fragment } from "react";
 
 const App = () => {
-  return <div>adadadadaddadad</div>
-}
+  return (
+    <>
+      <h1>h 태그!</h1>
+      <h2>h 태그!</h2>
+      {/* <img src="" /> */}
+    </>
+  );
+};
 
 export default App;
