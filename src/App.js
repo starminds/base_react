@@ -7,9 +7,9 @@ import {
 } from "./components/2_component/FnComponent";
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/Subject";
-import { SubjectDb } from "./Db";
+import { Subjectdb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
-import { TodayMenuDb } from "./Db";
+import { TodayMenudb } from "./db";
 import { TodayMenu } from "./components/3_props/TodayMenu";
 // console.log(TodayMenu);
 
@@ -29,9 +29,9 @@ const App = () => {
 
       {/* <Menus /> */}
 
-      <Subject sub={SubjectDb} />
+      <Subject sub={Subjectdb} />
 
-      {/* <TodayMenu menu={TodayMenuDb} /> */}
+      {/* <TodayMenu menu={TodayMenudb} /> */}
 
       {/* 3일차 */}
     </div>

@@ -3,7 +3,7 @@ import "../../styles/styles.css";
 export const Subject = ({ sub }) => {
   //   console.log(sub[0].SubjectTitle);
   return (
-    <div>
+    <div className="box">
       <ul className="Subject">
         <h1>오늘의 수업</h1>
         <li className="Subj">

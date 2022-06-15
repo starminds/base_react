@@ -1,4 +1,4 @@
-export const SubjectDb = [
+export const Subjectdb = [
   {
     id: 0,
     SubjectTitle: "HTML",
