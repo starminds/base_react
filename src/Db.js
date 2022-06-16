@@ -74,3 +74,28 @@ export const kakaodb = [
     menu: "'세계 행복의 날'이라는 기념일을 돌아보신 적 있나요? 2012년 국제연합(UN)이 모든 사람들이 행복하게 살 수 있도록 전 세계가 함께 노력하자는 취지로 매년 3월20일을 '세계...",
   },
 ];
+
+export const wapdb = [
+  {
+    id: 0,
+    imgurl:
+      "https://velog.velcdn.com/images/dldnjswns31/post/acf9ed03-21a9-4a8c-aabd-664e8a344424/image.webp",
+    tag: "HTML_5",
+    menu: "HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 의 핵심 마크업 언어이다. 2004년 7월 Web Hypertext Application Technology Working Group에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을 시작하였다",
+  },
+
+  {
+    id: 1,
+    imgurl: "https://t1.daumcdn.net/cfile/tistory/993DFA465FEAB06C10",
+    tag: "CSS3",
+    menu: "종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(style sheet language)로[1], HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.",
+  },
+
+  {
+    id: 2,
+    imgurl:
+      "https://images.velog.io/images/hanblueblue/post/3a0b0464-a4f4-44b9-820a-d14e47f98eec/js.png",
+    tag: "JAVASCRIPT",
+    menu: "자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다.",
+  },
+];
