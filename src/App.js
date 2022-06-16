@@ -13,6 +13,7 @@ import { TodayMenudb } from "./db";
 // import { TodayMenu } from "./components/3_props/TodayMenu";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { KakaoEx } from "./components/4_map/KakaoEx";
+import { Content } from "./components/4_map/Content";
 
 const App = () => {
   return (
@@ -38,7 +39,9 @@ const App = () => {
 
       {/* <FoodMenu menus={TodayMenudb} /> */}
 
-      <KakaoEx kakaoData={kakaodb} />
+      {/* <KakaoEx kakaoData={kakaodb} /> */}
+      {/* 4 일 차 */}
+      <Content />
     </div>
   );
 };
