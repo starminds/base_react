@@ -7,11 +7,12 @@ import {
 } from "./components/2_component/FnComponent";
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/Subject";
-import { Subjectdb } from "./db";
+import { kakaodb, Subjectdb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
 import { TodayMenudb } from "./db";
-import { TodayMenu } from "./components/3_props/TodayMenu";
-// console.log(TodayMenu);
+// import { TodayMenu } from "./components/3_props/TodayMenu";
+import { FoodMenu } from "./components/4_map/FoodMenu";
+import { KakaoEx } from "./components/4_map/KakaoEx";
 
 const App = () => {
   return (
@@ -29,11 +30,15 @@ const App = () => {
 
       {/* <Menus /> */}
 
-      <Subject sub={Subjectdb} />
+      {/* <Subject sub={Subjectdb} /> */}
 
       {/* <TodayMenu menu={TodayMenudb} /> */}
 
       {/* 3일차 */}
+
+      {/* <FoodMenu menus={TodayMenudb} /> */}
+
+      <KakaoEx kakaoData={kakaodb} />
     </div>
   );
 };
