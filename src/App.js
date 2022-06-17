@@ -7,7 +7,7 @@ import {
 } from "./components/2_component/FnComponent";
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/Subject";
-import { kakaodb, Subjectdb, wapdb } from "./db";
+import { condb, kakaodb, Subjectdb, wapdb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
 import { TodayMenudb } from "./db";
 // import { TodayMenu } from "./components/3_props/TodayMenu";
@@ -16,6 +16,7 @@ import { KakaoEx } from "./components/4_map/KakaoEx";
 import { Content } from "./components/4_map/Content";
 import { GlobalStyled } from "./styles/GlobalStyled";
 import { Wap } from "./components/4_map/Wap";
+import { ConEx } from "./components/4_map/ConEx";
 
 const App = () => {
   return (
@@ -44,7 +45,8 @@ const App = () => {
 
       {/* <KakaoEx kakaoData={kakaodb} /> */}
 
-      <Wap wapData={wapdb} />
+      {/* <Wap wapData={wapdb} /> */}
+      <ConEx conData={condb} />
       {/* 4 일 차 */}
       {/* <Content /> */}
     </div>
