@@ -23,6 +23,7 @@ import { MusicApp } from "./components/5_MusicApp/MusicApp";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { ExEvent } from "./components/6_Event/ExEvent";
+import { ProEvent } from "./components/6_Event/ProEvent";
 
 const App = () => {
   return (
@@ -66,6 +67,7 @@ const App = () => {
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
       <ExEvent />
+      {/* <ProEvent /> */}
       {/* 6일차 */}
     </div>
   );

@@ -10,8 +10,8 @@ const Box = styled.div`
 export const ExEvent = () => {
   const [color, setColor] = useState("gold");
   const handleColor = () => {
-    setColor("salom");
+    setColor("red");
   };
 
-  return <Box bgcolor={color} oclick={handleColor} />;
+  return <Box bgcolor={color} onClick={handleColor} />;
 };
