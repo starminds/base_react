@@ -24,6 +24,11 @@ const Items = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+    cursor: pointer;
+  }
+  &:nth-child(3):hover {
+    background-color: purple;
   }
 `;
 
