@@ -19,7 +19,10 @@ import { Wap } from "./components/4_map/Wap";
 import { ConEx } from "./components/4_map/ConEx";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { Music } from "./components/5_MusicApp/Music";
-import { MusicApp } from "./components/6_ex/MusicApp";
+import { MusicApp } from "./components/5_MusicApp/MusicApp";
+import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { FnEvent } from "./components/6_Event/FnEvent";
+import { ExEvent } from "./components/6_Event/ExEvent";
 
 const App = () => {
   return (
@@ -58,7 +61,12 @@ const App = () => {
 
       {/* 5일차 */}
 
-      <MusicApp />
+      {/* <MusicApp /> */}
+
+      {/* <ClassEvent /> */}
+      {/* <FnEvent /> */}
+      <ExEvent />
+      {/* 6일차 */}
     </div>
   );
 };

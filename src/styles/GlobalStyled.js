@@ -13,9 +13,9 @@ export const GlobalStyled = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body{
+    /* body{
       background-color: #555;
-    }
+    } */
 
     a{
       text-decoration: none;

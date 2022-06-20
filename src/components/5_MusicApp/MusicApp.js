@@ -40,19 +40,16 @@ const CoverImg = styled.div`
   border-radius: 25px;
   box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
   margin: 30px 0;
+  background: url(https://images.squarespace-cdn.com/content/v1/5ff358148500a82fe9de2c53/1613768596441-4ANCB2YFZPIJ4LESVCWQ/SONG-neon.png?format=1000w)
+    no-repeat center/cover;
 `;
-
 export const MusicApp = () => {
   return (
     <Wrap>
       <Section>
         <Header />
 
-        <CoverImg
-          style={{
-            background: `url(https://cdn.topstarnews.net/news/photo/202202/14669162_758063_1635.jpg) no-reapeat center / cover`,
-          }}
-        />
+        <CoverImg />
 
         <TitelWrap />
 
