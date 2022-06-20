@@ -111,6 +111,8 @@ const End = styled.div`
   border: 2px solid white;
   background-color: white;
   border-radius: 45px;
+  /* display: flex;
+  justify-content: ; */
 `;
 
 const Img = styled.div`

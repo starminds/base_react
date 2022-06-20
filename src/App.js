@@ -19,6 +19,7 @@ import { Wap } from "./components/4_map/Wap";
 import { ConEx } from "./components/4_map/ConEx";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { Music } from "./components/5_MusicApp/Music";
+import { MusicApp } from "./components/6_ex/MusicApp";
 
 const App = () => {
   return (
@@ -53,9 +54,11 @@ const App = () => {
       {/* <Content /> */}
 
       {/* <Icons /> */}
-      <Music />
+      {/* <Music /> */}
 
       {/* 5일차 */}
+
+      <MusicApp />
     </div>
   );
 };
