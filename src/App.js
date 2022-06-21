@@ -24,6 +24,7 @@ import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { ExEvent } from "./components/6_Event/ExEvent";
 import { ProEvent } from "./components/6_Event/ProEvent";
+import { Animation } from "./components/6_Event/Animation";
 
 const App = () => {
   return (
@@ -66,9 +67,10 @@ const App = () => {
 
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
-      <ExEvent />
+      {/* <ExEvent /> */}
       {/* <ProEvent /> */}
       {/* 6일차 */}
+      <Animation />
     </div>
   );
 };
