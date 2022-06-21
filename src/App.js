@@ -25,7 +25,8 @@ import { FnEvent } from "./components/6_Event/FnEvent";
 import { ExEvent } from "./components/6_Event/ExEvent";
 import { ProEvent } from "./components/6_Event/ProEvent";
 import { Animation } from "./components/6_Event/Animation";
-
+import { BaseRouter } from "./components/7_router/BaseRouter";
+import { ExFolder } from "./components/Folder/ExFolder";
 const App = () => {
   return (
     <div>
@@ -70,7 +71,9 @@ const App = () => {
       {/* <ExEvent /> */}
       {/* <ProEvent /> */}
       {/* 6일차 */}
-      <Animation />
+      {/* <Animation /> */}
+      {/* <BaseRouter /> */}
+      <ExFolder />
     </div>
   );
 };
