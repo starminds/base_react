@@ -13,6 +13,10 @@ export const GlobalStyled = createGlobalStyle`
         box-sizing: border-box;
     }
 
+
+    body{
+      font-family: 'Noto Sans KR', sans-serif;
+    }
     /* body{
       background-color: #555;
     } */

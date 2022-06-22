@@ -8,8 +8,6 @@ import { Header } from "./RouteFol/Header";
 import { Home } from "./RouteFol/Home";
 import { Section } from "./RouteFol/Section";
 import { Product } from "./RouteFol/Product";
-import { MainPage } from "./RouteFol/MainPage";
-import { ChoicePage } from "./RouteFol/ChoicePage";
 
 export const ExFolder = () => {
   return (

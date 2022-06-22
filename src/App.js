@@ -27,6 +27,7 @@ import { ProEvent } from "./components/6_Event/ProEvent";
 import { Animation } from "./components/6_Event/Animation";
 import { BaseRouter } from "./components/7_router/BaseRouter";
 import { ExFolder } from "./components/Folder/ExFolder";
+import { LayourRouter, Router } from "./components/8_Baselayout/LayourRouter";
 const App = () => {
   return (
     <div>
@@ -73,7 +74,8 @@ const App = () => {
       {/* 6일차 */}
       {/* <Animation /> */}
       {/* <BaseRouter /> */}
-      <ExFolder />
+      {/* <ExFolder /> */}
+      <LayourRouter />
     </div>
   );
 };
