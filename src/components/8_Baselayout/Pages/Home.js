@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import styled from "styled-components";
+import { PageTitle } from "../Component/PageTitle";
 
 const Banner = styled.section`
   height: 800px;
@@ -19,6 +20,7 @@ const Content = styled.div`
   background-color: lightgray;
   box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
+  margin: 10px;
   &:hover {
     transform: translate(25px, 25px);
     box-shadow: none;
@@ -33,6 +35,7 @@ const Content = styled.div`
 export const Home = () => {
   return (
     <div>
+      <PageTitle text={"Home"} />
       <Banner></Banner>
 
       <Section>

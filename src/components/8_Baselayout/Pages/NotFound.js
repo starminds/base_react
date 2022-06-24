@@ -1,3 +1,9 @@
+import { PageTitle } from "../Component/PageTitle";
+
 export const NotFound = () => {
-  return <div>NotFoun</div>;
+  return (
+    <div>
+      <PageTitle text={"페이지를 찾을수 없습니다"} />
+    </div>
+  );
 };

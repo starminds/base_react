@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { PageTitle } from "../Component/PageTitle";
 
 const Section = styled.section`
   padding: 200px 400px;
@@ -32,6 +33,7 @@ const Desc = styled.p`
 export const Sub = ({ cons }) => {
   return (
     <Section>
+      <PageTitle text={"Sub 페이지 입니다"} />
       <Bg></Bg>
       <TextWrap>
         <Title>{cons.title}</Title>
